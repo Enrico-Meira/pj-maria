@@ -14,8 +14,8 @@ body {
 }
 
 .card {
-	width: 200px;
-	height: 400px;
+	width: 500px;
+	height: 500px;
 	position: relative;
 	display: flex;
 	justify-content: center;
@@ -91,7 +91,7 @@ body {
 	width: 100%;
 	transition: transform 0.5s;
 	position: absolute;
-    bottom: -50px;
+    bottom: -350px;
 }
 
 .card:hover .logo {
@@ -104,7 +104,7 @@ body {
 
 .character {
 	width: 90%;
-	margin-right: 20px;
+	margin-right: 40px;
 	opacity: 0;
 	transition: all 0.5s;
 	filter: drop-shadow(2px 2px 2px #000);
